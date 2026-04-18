@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Signature Latte",
+    "description": "Smooth, creamy, and unforgettable",
+    "price": 120,
+    "image": "/images/latte.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cold Brew",
+    "description": "Bold flavor, slow-steeped perfection",
+    "price": 110,
+    "image": "/images/coldbrew.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Caramel Macchiato",
+    "description": "Sweet meets strong in every sip",
+    "price": 130,
+    "image": "/images/macchiato.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Classic Espresso",
+    "description": "Pure, powerful, and timeless",
+    "price": 90,
+    "image": "/images/espresso.jpg"
+  }
+]
