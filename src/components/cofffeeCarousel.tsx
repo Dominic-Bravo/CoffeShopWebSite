@@ -11,10 +11,10 @@ export default function CoffeeMenu() {
       </h2>
 
       {/* Carousel Container */}
-      <div className="flex w-full overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+      <div className="flex w-full overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] group">
         
         {/* First Loop */}
-        <div className="flex animate-infinite-scroll">
+        <div className="flex animate-infinite-scroll group-hover:[animation-play-state:paused]">
           {items.map((item) => (
             <div
               key={item.id}
@@ -35,7 +35,7 @@ export default function CoffeeMenu() {
         </div>
 
         {/* Duplicate Loop for Infinite Effect */}
-        <div className="flex animate-infinite-scroll" aria-hidden="true">
+        <div className="flex animate-infinite-scroll group-hover:[animation-play-state:paused]" aria-hidden="true">
           {items.map((item) => (
             <div
               key={`dup-${item.id}`}
@@ -55,10 +55,6 @@ export default function CoffeeMenu() {
           ))}
         </div>
       </div>
-
-      <p className="text-center mt-10 text-amber-900">
-        Your perfect cup is waiting.
-      </p>
     </div>
   );
 }
