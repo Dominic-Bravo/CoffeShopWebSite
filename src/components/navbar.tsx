@@ -5,16 +5,16 @@ function Navbar() {
         <div className="text-amber-900 text-2 xl font-bold">Coffee Shop</div>
         <ul className="flex space-x-10 text-xl font-medium">
             <li>
-                <a href="#" className="text-amber-900 hover:text-white">Stories</a>
+                <a href="#" className="text-amber-900 hover:text-amber-700">Stories</a>
             </li>
             <li>
-                <a href="#" className="text-amber-900 hover:text-white">Coffee</a>     
+                <a href="#" className="text-amber-900 hover:text-amber-700">Coffee</a>     
             </li>
             <li>
-                <a href="#" className="text-amber-900 hover:text-white">Equipment</a>
+                <a href="#" className="text-amber-900 hover:text-amber-700">Equipment</a>
             </li>
             <li>
-                <a href="#" className="text-amber-900 hover:text-white">Store</a>
+                <a href="#" className="text-amber-900 hover:text-amber-700">Store</a>
             </li>
         </ul>   
         <button className="bg-green-50 text-green-950 px-4 py-2 rounded hover:bg-green-100">order</button>
@@ -25,3 +25,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
