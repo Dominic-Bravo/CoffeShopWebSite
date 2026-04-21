@@ -5,6 +5,7 @@ import CoffeeCarousel from './components/cofffeeCarousel'
 import EngagementSection from './components/engagement'
 import SocialProofSection from './components/socialproofsection'
 import CallToActionSection from './components/CallToActionSection'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <EngagementSection/>
           <SocialProofSection/>
           <CallToActionSection/>
+          <Footer/>
         </div>
       </main>
     </div>
