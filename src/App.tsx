@@ -9,10 +9,10 @@ import Footer from './components/sections/Footer'
 
 function App() {
   return (
-    <div className="bg-amber-50 min-h-screen" id="top">
+    <div className="bg-stone-50 min-h-screen" id="top">
       <Navbar/>
       <main className="px-4 sm:px-6 lg:px-8">
-        <div className="bg-amber-100 text-amber-900 rounded-lg shadow-md p-4 sm:p-6 m-2 sm:m-4 lg:m-6">
+        <div className="bg-stone-100 text-stone-900 rounded-lg shadow-md p-4 sm:p-6 m-2 sm:m-4 lg:m-6">
           <div id="stories">
             <Hello/>
           </div>

@@ -23,7 +23,7 @@ function Navbar() {
             alt="Coffee Logo"
             className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 object-contain"
           />
-          <div className="text-lg sm:text-xl md:text-2xl font-bold tracking-wide text-amber-800">
+          <div className="text-lg sm:text-xl md:text-2xl font-bold tracking-wide text-brown-800">
             Coffee Shop
           </div>
         </div>
@@ -32,18 +32,18 @@ function Navbar() {
         <ul className="hidden md:flex space-x-6 lg:space-x-10 text-lg lg:text-xl font-medium">
           {navbarItems.map((item) => (
             <li key={item.label} className={`${hoverScale}`}>
-              <a href={item.href} className="text-amber-900 hover:text-amber-700">{item.label}</a>
+              <a href={item.href} className="text-brown-900 hover:text-brown-700">{item.label}</a>
             </li>
           ))}
         </ul>
 
-        <button className={`font-bold bg-amber-100 text-green-900 px-3 py-2 sm:px-4 sm:py-3 w-20 sm:w-24 rounded-full hover:bg-amber-200 ${hoverScale}`}>
+        <button className={`font-bold bg-brown-100 text-stone-900 px-3 py-2 sm:px-4 sm:py-3 w-20 sm:w-24 rounded-full hover:bg-brown-200 ${hoverScale}`}>
           Order
         </button>
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-amber-900"
+          className="md:hidden text-brown-900"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -58,7 +58,7 @@ function Navbar() {
           <ul className="flex flex-col space-y-2 text-center">
             {navbarItems.map((item) => (
               <li key={item.label} className={`${hoverScale}`}>
-                <a href={item.href} className="text-amber-900 hover:text-amber-700 block py-2">{item.label}</a>
+                <a href={item.href} className="text-brown-900 hover:text-brown-700 block py-2">{item.label}</a>
               </li>
             ))}
           </ul>

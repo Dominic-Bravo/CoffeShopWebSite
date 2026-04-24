@@ -17,7 +17,7 @@ export default function ButtonCard({
   return (
     <div className={`bg-green-50 rounded-full shadow-lg overflow-hidden flex items-center justify-center gap-2 ${hoverScale} ${className}`}>
       {label && <span className="text-lg font-semibold">{label}</span>}
-      {emoji && <span className="text-4xl text-amber-900">{emoji}</span>}
+      {emoji && <span className="text-4xl text-brown-900">{emoji}</span>}
       {children}
     </div>
   );

@@ -7,7 +7,7 @@ export default function MenuSection() {
 
   return (
     <div className="bg-coffee-900 py-12 overflow-hidden">
-      <h2 className="text-center text-3xl font-bold mb-10 text-amber-500">
+      <h2 className="text-center text-3xl font-bold mb-10 text-brown-500">
         ☕ Our Coffee Menu
       </h2>
 

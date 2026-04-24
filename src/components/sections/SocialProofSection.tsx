@@ -5,7 +5,7 @@ import { prompts, testimonials } from "../../data/socialProofData";
 
 export default function SocialProofSection() {
   return (
-    <section className="bg-coffee-800 py-16 text-center text-amber-900 px-4">
+    <section className="bg-coffee-800 py-16 text-center text-brown-900 px-4">
 
       {/* Interactive Prompts */}
       <div className="mb-12">
