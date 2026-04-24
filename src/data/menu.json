@@ -26,5 +26,19 @@
     "description": "Pure, powerful, and timeless",
     "price": 90,
     "image": "/images/espresso.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Mocha Delight",
+    "description": "Rich chocolate with a coffee kick",
+    "price": 140,
+    "image": "/images/mocha.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Vanilla Cappuccino",
+    "description": "Frothy and sweet with vanilla notes",
+    "price": 125,
+    "image": "/images/cappuccino.jpg"
   }
 ]

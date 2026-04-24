@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   /* Define the animation name and duration */
   --animate-infinite-scroll: infinite-scroll 25s linear infinite;
